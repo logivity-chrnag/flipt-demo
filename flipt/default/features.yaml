@@ -1,0 +1,9 @@
+version: "1.5"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: new-create-shipment-flow
+      name: New create shipment flow
+      type: BOOLEAN_FLAG_TYPE
+      enabled: false
