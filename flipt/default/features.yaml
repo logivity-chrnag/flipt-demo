@@ -23,5 +23,5 @@ segments:
         - type: STRING_COMPARISON_TYPE
           property: orgId
           operator: isoneof
-          value: '["org1","org2"]'
+          value: '["org1","org2","org3"]'
       match_type: ANY_MATCH_TYPE
