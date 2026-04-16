@@ -11,3 +11,6 @@ segments:
     - key: all-users
       name: All users
       match_type: ANY_MATCH_TYPE
+    - key: beta-users
+      name: Beta users
+      match_type: ANY_MATCH_TYPE
