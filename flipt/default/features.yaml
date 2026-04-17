@@ -21,6 +21,12 @@ flags:
       name: Show invoice upload
       type: BOOLEAN_FLAG_TYPE
       enabled: false
+      rollouts:
+        - segment:
+            keys:
+                - beta-users
+            operator: OR_SEGMENT_OPERATOR
+            value: true
 segments:
     - key: all-users
       name: All users
