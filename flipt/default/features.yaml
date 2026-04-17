@@ -17,6 +17,10 @@ flags:
       name: New flag
       type: BOOLEAN_FLAG_TYPE
       enabled: false
+    - key: show-invoice-upload
+      name: Show invoice upload
+      type: BOOLEAN_FLAG_TYPE
+      enabled: false
 segments:
     - key: all-users
       name: All users
