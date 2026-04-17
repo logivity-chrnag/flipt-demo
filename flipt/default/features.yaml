@@ -20,7 +20,7 @@ flags:
     - key: show-invoice-upload
       name: Show invoice upload
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
 segments:
     - key: all-users
       name: All users
